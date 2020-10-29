@@ -1,0 +1,32 @@
+$theme-colors: (
+  "primary": #652861,
+  "secondary": #4d1e49,
+  "tertiary": #3a0241,
+  "danger": #ff505d,
+  "info": #2e333b,
+  "dark": #262a31,
+);
+
+//Start require for loading bootstrap styles
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+//End require for loading bootstrap styles
+
+// Start my style from other files
+@import "../styles/rtl-bootstrap";
+@import "../styles/font-face";
+// Start my style from other files
+
+// Start main style
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Vazir-FD";
+  font-weight: normal;
+}
+a {
+  text-decoration: none !important;
+}
+// End main style

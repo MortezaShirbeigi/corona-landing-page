@@ -1,0 +1,28 @@
+{
+  "name": "my-bootstrap",
+  "version": "1.0.0",
+  "description": "modified bootstrap for corona virus landing page",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch assets/styles/main.scss:assets/styles/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MortezaShirbeigi/corona-landing-page.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "scss",
+    "bootstrap"
+  ],
+  "author": "Morteza Shirbeigi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MortezaShirbeigi/corona-landing-page/issues"
+  },
+  "homepage": "https://github.com/MortezaShirbeigi/corona-landing-page#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.3"
+  }
+}
