@@ -6710,6 +6710,183 @@ header {
     transform: translateY(-10px);
   }
 }
+.signs__title {
+  font-size: 2rem;
+  font-weight: 900;
+}
+.signs__title::before {
+  content: url("../images/virus-icon-black.svg");
+  vertical-align: -8px;
+  padding-left: 10px;
+}
+
+@media (max-width: 768px) {
+  .signs__title {
+    font-size: 1.6rem;
+  }
+}
+.sign__image--title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#left-eyebrow2,
+#right-eyebrow2 {
+  animation: eyebrow-move 2s ease-in-out infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes eyebrow-move {
+  from {
+    transform: rotateX(0deg);
+  }
+  to {
+    transform: rotateX(30deg);
+  }
+}
+#hand2 {
+  animation: hand2 2s ease-in-out infinite alternate;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+@keyframes hand2 {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(10deg);
+  }
+}
+#mouth {
+  animation: lips 2s 2s ease-in-out infinite alternate;
+  /*lips animation in 2-top-section*/
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#left-eye-icon2,
+#right-eye-icon2 {
+  animation: blink 1s ease-in-out infinite alternate;
+  /*blink animation in 2-top-section*/
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#left-eyebrow-icon2,
+#right-eyebrow-icon2 {
+  animation: eyebrow-move 2s ease-in-out infinite alternate;
+  transform-origin: center;
+  /*eyebrow-move animation in Headache*/
+}
+
+#hand-icon2 {
+  animation: handicon2 2s 2s ease-in-out infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes handicon2 {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(8px);
+  }
+}
+#left-eyebrow3,
+#right-eyebrow3 {
+  animation: eyebrow-move 2s ease-in-out infinite alternate;
+  /*eyebrow-move animation in Headache*/
+  transform-origin: center;
+}
+
+#left-eye3,
+#right-eye3 {
+  animation: blink 1s ease-in-out infinite alternate;
+  /*blink animation in Headache*/
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#hand-icon3 {
+  animation: handicon3 1.5s ease-in-out infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes handicon3 {
+  from {
+    transform: translateY(0px) translateX(8px);
+  }
+  to {
+    transform: translateY(-10px) translateX(0px);
+  }
+}
+#steam {
+  animation: steam 2s ease-in-out infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes steam {
+  0% {
+    transform: translateX(-20px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(8px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(8px);
+    opacity: 0;
+  }
+}
+#left-eyebrow4,
+#right-eyebrow4 {
+  animation: eyebrow-move 2s ease-in-out infinite alternate;
+  /*eyebrow-move animation in Headache*/
+  transform-origin: center;
+}
+
+#left-eye4,
+#right-eye4 {
+  animation: blink 1s ease-in-out infinite alternate;
+  /*blink animation in Headache*/
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#hothead {
+  animation: hothead 1s ease-in-out infinite alternate;
+}
+
+@keyframes hothead {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+#steam2 {
+  animation: steam2 2s infinite;
+}
+
+@keyframes steam2 {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+}
 body {
   box-sizing: border-box;
   padding: 0;
