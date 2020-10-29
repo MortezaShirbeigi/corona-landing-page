@@ -1,0 +1,14 @@
+// Start footer section styles
+
+.footer__section--top {
+  background-color: map-get($theme-colors, info);
+}
+.footer__section--bottom {
+  background-color: map-get($theme-colors, dark);
+}
+
+.license {
+  font-size: 0.8rem;
+}
+
+// End footer section styles

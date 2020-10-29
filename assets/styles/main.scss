@@ -8,6 +8,7 @@ $theme-colors: (
 );
 
 $navbar-dark-color: #fff !default;
+$link-color: #fff;
 
 //Start require for loading bootstrap styles
 @import "../../node_modules/bootstrap/scss/functions";
@@ -34,6 +35,7 @@ $navbar-dark-color: #fff !default;
 @import "../styles/3-signs-section";
 @import "../styles/4-transfers-section";
 @import "../styles/5-prevention-section";
+@import "../styles/6-footer-section";
 // Start my style from other files
 
 // Start main style

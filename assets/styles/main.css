@@ -114,12 +114,12 @@ sup {
 }
 
 a {
-  color: #652861;
+  color: #fff;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #2e122c;
+  color: #d9d9d9;
   text-decoration: underline;
 }
 
@@ -7047,6 +7047,18 @@ header {
   animation: circle-animation 2s infinite;
   transform-origin: center;
   transform-box: fill-box;
+}
+
+.footer__section--top {
+  background-color: #2e333b;
+}
+
+.footer__section--bottom {
+  background-color: #262a31;
+}
+
+.license {
+  font-size: 0.8rem;
 }
 
 body {
