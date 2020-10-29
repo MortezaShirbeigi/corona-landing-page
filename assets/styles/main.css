@@ -6981,6 +6981,74 @@ header {
   transform-box: fill-box;
 }
 
+.prevention__title {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.prevention__title::before {
+  content: url("../images/virus-icon-black.svg");
+  vertical-align: -8px;
+}
+
+@media (max-width: 768px) {
+  .prevention__title {
+    font-size: 1.6rem;
+  }
+}
+.prevention__image--title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#sneezing-icon-circle1 {
+  animation: circle-animation 2s infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#sneezing-icon-circle2 {
+  animation: circle-animation 2s infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#shake-hand-icon-circle1 {
+  animation: circle-animation 2s infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#shake-hand-icon-circle2 {
+  animation: circle-animation 2s infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#mask-icon-circle1 {
+  animation: circle-animation 2s infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#mask-icon-circle2 {
+  animation: circle-animation 2s infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#washing-hand-icon-circle1 {
+  animation: circle-animation 2s infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#washing-hand-icon-circle2 {
+  animation: circle-animation 2s infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
 body {
   box-sizing: border-box;
   padding: 0;
