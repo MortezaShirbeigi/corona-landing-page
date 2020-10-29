@@ -1,0 +1,123 @@
+// Start transfer section styles
+
+.transfers-section {
+  background: radial-gradient(
+      50% 50% at 50% 50%,
+      map-get($theme-colors, primary) 0%,
+      map-get($theme-colors, secondary) 100%
+    ),
+    map-get($theme-colors, primary);
+}
+
+.transfers__title {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 900;
+  &::before {
+    content: url("../images/virus-icon-white.svg");
+    vertical-align: -8px;
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .transfers__title {
+    font-size: 1.6rem;
+  }
+}
+
+.transfer__image--title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+// End transfer section styles
+
+// Start animarions
+
+// Start cat animation
+
+#cat-icon-circle1 {
+  animation: circle-animation 2s infinite;
+  /*lips animation in 2-top-section*/
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#cat-icon-circle2 {
+  animation: circle-animation 2s infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes circle-animation {
+  0% {
+    opacity: 0.5;
+    transform: scale(0.8);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0.5;
+    transform: scale(0.8);
+  }
+}
+
+// End cat animation
+
+// Start bottle animation
+
+#bottle-icon-circle1 {
+  animation: circle-animation 2s infinite;
+  /* circle animation in cat-icon */
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#bottle-icon-circle2 {
+  animation: circle-animation 2s infinite;
+  /* circle animation in cat-icon */
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+// End bottle animation
+
+// Start hand animation
+
+#hand-icon-circle2 {
+  animation: circle-animation 2s infinite;
+  /* circle animation in cat-icon */
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#hand-icon-circle1 {
+  animation: circle-animation 2s infinite;
+  /* circle animation in cat-icon */
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+// End hand animation
+
+// Start surface animation
+
+#surface-icon-circle1 {
+  animation: circle-animation 2s infinite;
+  /* circle animation in cat-icon */
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#surface-icon-circle2 {
+  animation: circle-animation 2s infinite;
+  /* circle animation in cat-icon */
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+// End surface animation
+
+// End animations
